@@ -1,0 +1,118 @@
+h2 {
+    text-align: center;
+    font-weight: 700;
+    color: green;
+}
+
+p {
+    color: green;
+}
+
+#home {
+    top: 50%;
+    left: 50%;
+    position: absolute;
+    transform: translate(-50%, -50%);
+    float: left;
+    width: 300px;
+    box-sizing: border-box;
+}
+
+#nivel {
+    margin-top: 25px;
+    margin-left: 10px;
+    margin-right: 10px;
+    height: 47px;
+    width: 150px;
+    display: inline-block;
+}
+
+#play {
+    position: absolute;
+    width: 87px;
+    height: 87px;
+    background: url(imagens/iniciar.png);
+    background-position: center;
+    border-radius: 10px;
+    display: inline-block;
+
+}
+
+section {
+    width: 712px;
+    height: 502px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background: #d8d8d8;
+    border: 1px solid green;
+    box-shadow: yellow 0px 0px 20px;
+}
+
+section .hue {
+    width: 110px;
+    height: 500px;
+    background: green;
+    float: left;
+}
+
+section #img-ballon {
+    background: url(imagens/balao_azul_grande.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+
+section #img-ballon-est {
+    background: url(imagens/balao_azul_grande_estourado.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+
+section #img-time {
+    background: url(imagens/cronometro.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+
+section .pontos {
+    display: block;
+    text-align: center;
+    width: 110px;
+    margin: 10px 0px 10px 0px;
+    font-size: 1.4em;
+    font-weight: 700;
+}
+
+#img-time-pontos {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -75%);
+    font-size: 1.2em;
+    font-weight: 600;
+}
+
+section .hue-data {
+    background-color: aqua;
+    width: 70px;
+    height: 80px;
+    margin: 10px auto;
+    padding: 0px;
+    position: relative;
+}
+
+.btn-primary {
+    width: 100px;
+    margin: 3px;
+    text-align: center;
+    background: lightgreen;
+}
+
+section .content {
+    width: 600px;
+    height: 500px;
+    background: url(imagens/cenario.png);
+    background-position: bottom;
+    float: left;
+}
